@@ -1,17 +1,26 @@
-<header>
-	<div class="wrap">
-		<!-- LOGO -->
-		<a href="131.104.63.220"><img class="logo" src="images/logo.png"/></a> 
-		//The a is a URL link where we 'href' to the URL
-
-		<!-- Navigation Menu -->
-		<nav>
-			<ul> //Unordered Lists with <li> as the list item
-				<li><a id="PDBFiles" href="1GZXpdb.php" ng-class="{activeSmall:part == 'PDBFiles'}">PDB Files</a></li>
-				<li><a id="Algorithms" href="#!/" ng-class="{activeSmall:part == 'Algorithms'}">Algorithms</a></li>
-				<li><a id="UserProfiles" href="#!/" ng-class="{activeSmall:part == 'UserProfiles'}">User Profiles</a></li>
-				<li><a id="Profile" href="profile.php" ng-class="{activeSmall:part == 'Profile'}">Profile</a></li>
-			</ul>
-		</nav>
-	</div>
-</header>
+		<header>
+			<!-- Navigation Menu -->
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<!-- This is a collapsable navigation for small screens -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle Navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- LOGO -->
+						<a class="navbar-brand" href="index.php" title="ISSO"><span><img class="logo" src="images/logo.png"/ style="max-width:45px; height:auto; margin-top:-10px; padding:5px"></span>ISSO</a> 
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">	
+						<ul class="nav navbar-nav navbar-right"> <!-- Unordered Lists with <li> as the list item -->
+							<li><a href="1GZXpdb.php">PDB Files</a></li>
+							<li><a href="#!/">Algorithms</a></li>
+							<li><a href="#!/">User Profiles</a></li>
+							<li><a href="profile.php">Profile</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
