@@ -1,3 +1,8 @@
-<footer>
-	<div class="copyright"><a href="#!/" target="_blank">Copyright 2017 Irenaeus Chan</a></div>
-</footer>
+		<footer>
+			<p>&copy; Irenaeus Chan 2017</p>
+		</footer>
+
+		<!-- Bootstrap Core JavaScript -->
+		<?php include('config/js.php');?>
+	</body>
+</html>
